@@ -16,4 +16,11 @@ class STUDY_250213_API AFirstGameMode : public AGameMode
 	
 public:
 	AFirstGameMode();
+
+protected:
+	//void BeginPlay();
+
+private:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "First", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AFirstMonsterActor> SpawnSubClass = 0;
 };
