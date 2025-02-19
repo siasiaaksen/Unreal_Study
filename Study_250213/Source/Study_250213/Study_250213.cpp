@@ -4,3 +4,5 @@
 #include "Modules/ModuleManager.h"
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Study_250213, "Study_250213" );
+
+DEFINE_LOG_CATEGORY(JAYLOG);
